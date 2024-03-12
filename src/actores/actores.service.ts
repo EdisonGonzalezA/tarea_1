@@ -20,8 +20,8 @@ export class ActoresService {
     this.actores.push(act);
     return this.actores;
   }
-  actualizar(id: string, actorActualziar: ActorDTO) {
-    const nuevoact = { id, ...actorActualziar };
+  actualizar(id: string, actorActualizar: ActorDTO) {
+    const nuevoact = { id, ...actorActualizar };
     this.actores = this.actores.map((actor) =>
       actor.id === id ? nuevoact : actor,
     );

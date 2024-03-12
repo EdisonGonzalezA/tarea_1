@@ -2,7 +2,7 @@
 export interface IActor {
     id: string;
     nombre: string;    
-    edad: number;
+    edad: string;
     genero: string;
     nacionalidad: string;
   }

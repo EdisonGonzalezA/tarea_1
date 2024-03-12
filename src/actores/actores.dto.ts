@@ -9,8 +9,8 @@ import {
     @IsString({ message: 'Se necesita un texto' })
     nombre: string;
     @IsNotEmpty({ message: 'El campo es requerido' })
-    @IsNumber()
-    edad: number;
+    @IsString()
+    edad: string;
     @IsNotEmpty({ message: 'El campo es requerido' })
     @IsString()
     genero: string;
